@@ -1,1 +1,6 @@
-A very simple React & Express SSR Application based on react-server-boilerplate - but I think a better example as it actually has two different pages, though CSS issue is still not fixed.
+A very simple React & Express SSR Application based on react-server-boilerplate, which itself is very basic and has some problems making the CSS file.  But as a very basic example to build off, it works.
+
+$ npm run-script build
+$ npm run-script start
+
+rinse, repeat
