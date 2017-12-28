@@ -1,0 +1,102 @@
+# -----------------------------------------------------------------
+# .gitignore for WordPress @hyperarts
+# ver 20160616
+#
+# By default all files are ignored.  You'll need to whitelist
+# any mu-plugins, plugins, or themes you want to include in the repo.
+#
+# To ignore uncommitted changes in a file that is already tracked, use 
+# git update-index --assume-unchanged
+#
+# To stop tracking a file that is currently tracked, use 
+# git rm --cached
+#
+# Change Log:
+# -----------------------------------------------------------------
+
+# ignore all top level files and directories
+/*
+.DS_Store
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# large/disallowed file types
+# a CDN should be used for these
+*.hqx
+*.bin
+*.exe
+*.dll
+*.deb
+*.dmg
+*.iso
+*.img
+*.msi
+*.msp
+*.msm
+*.mid
+*.midi
+*.kar
+*.mp3
+*.ogg
+*.m4a
+*.ra
+*.3gpp
+*.3gp
+*.mp4
+*.mpeg
+*.mpg
+*.mov
+*.webm
+*.flv
+*.m4v
+*.mng
+*.asx
+*.asf
+*.wmv
+*.avi
+
+# ignore others
+*.xml
+.idea/*
+*.svn
+*.cvs
+*.bak
+*.swp
+*.doc
+*.docx
+
+# ignore node modules
+node_modules/
+
+# track this file .gitignore (i.e. do ignore it)
+!.gitignore
+
+# track readme.md in the root (i.e. do NOT ignore it)
+!readme.md
+
+
